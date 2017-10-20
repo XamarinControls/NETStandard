@@ -4,4 +4,18 @@
     <TargetFramework>netstandard1.1</TargetFramework>
   </PropertyGroup>
 
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.4.0.282" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>
