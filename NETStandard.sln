@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETStandard.Core", "NETStan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETStandard.Console", "NETStandard.Console\NETStandard.Console.csproj", "{FA54F429-764C-41AA-A2C4-FFF139ABE3F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard.ASPNetCore", "NetStandard.ASPNetCore\NetStandard.ASPNetCore.csproj", "{E2FAB21F-C08A-43C9-A81C-0ECF0E28B4C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FA54F429-764C-41AA-A2C4-FFF139ABE3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA54F429-764C-41AA-A2C4-FFF139ABE3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA54F429-764C-41AA-A2C4-FFF139ABE3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FAB21F-C08A-43C9-A81C-0ECF0E28B4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FAB21F-C08A-43C9-A81C-0ECF0E28B4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FAB21F-C08A-43C9-A81C-0ECF0E28B4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FAB21F-C08A-43C9-A81C-0ECF0E28B4C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
